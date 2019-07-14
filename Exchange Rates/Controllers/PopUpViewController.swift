@@ -16,7 +16,13 @@ class PopUpViewController: UIViewController {
     
     // MARK: - Properties
     
-    var date = ""
+    var date: String! {
+        didSet {
+            if date.isEmpty {
+                date = Date().fortmateToString()
+            }
+        }
+    }
     var helper: HelperProtocol?
     var sender: Any?
     

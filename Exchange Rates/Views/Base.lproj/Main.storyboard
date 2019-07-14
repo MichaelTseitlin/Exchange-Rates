@@ -53,6 +53,9 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="ПриватБанк" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HEJ-xz-yjD">
                                                         <rect key="frame" x="0.0" y="13.333333333333329" width="232.66666666666666" height="24"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="24" id="KAU-d9-7ek"/>
+                                                        </constraints>
                                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -261,6 +264,7 @@
                                         </subviews>
                                     </stackView>
                                 </subviews>
+                                <variation key="heightClass=compact-widthClass=compact" alignment="top" axis="horizontal" distribution="fillEqually"/>
                                 <variation key="heightClass=compact-widthClass=regular" alignment="top" axis="horizontal" distribution="fillEqually"/>
                                 <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
                             </stackView>
